@@ -119,16 +119,16 @@ function generatePassword() {
   ) {
     alert("Please choose at least one character");
     var confirmNumericCharacters = confirm(
-      "Click ok to cofnirm inclusion of numeric characters"
+      "Click ok to confirm inclusion of numeric characters"
     );
     var confirmSpecialCharacters = confirm(
-      "Click ok to cofnirm inclusion of special characters"
+      "Click ok to confirm inclusion of special characters"
     );
     var confirmLowercaseLetters = confirm(
-      "Click ok to cofnirm inclusion of lowercase letters"
+      "Click ok to confirm inclusion of lowercase letters"
     );
     var confirmUppercaseLetters = confirm(
-      "Click ok to cofnirm inclusion of uppercase letters"
+      "Click ok to confirm inclusion of uppercase letters"
     );
   }
 
